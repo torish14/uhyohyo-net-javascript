@@ -8,10 +8,12 @@
 </head>
 <body>
 	<script type="text/javascript">
-		function name() {
-			document.write("<p>関数が問題なく実行されましたか？</p>")
+		function name(argument) {
+			alert('引数は' + argument + 'です。')
 		}
-		name()
+		name(5)
+		name(19)
+		name('test')
 	</script>
 </body>
 </html>
