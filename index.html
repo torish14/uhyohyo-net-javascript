@@ -9,11 +9,17 @@
 <body>
 	<p>test</p>
 	<script type="text/javascript">
-		a = 25
-		if(a > 20){
-			document.write("a は 20 より大きい")
+		a = 21
+		if(a >= 20) {
+			alert(a + 'は 20 以上です')
+		} else if (a >= 10) {
+			alert(a + 'は 10 以上です')
+		} else if(a >= 5) {
+			alert(a + 'は 5 以上です')
+		} else if(a >= 1) {
+			alert(a + 'は 1 以上です')
 		} else {
-			document.write("a は 20 以下")
+			alert(a + 'は 1 未満です')
 		}
 	</script>
 </body>
